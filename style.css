@@ -1,0 +1,133 @@
+*{
+
+    margin: 0;
+    padding: 0;
+}
+
+.row{
+
+
+    background-color: #FFB4C2;
+    align-items: center;
+    text-align: center;
+    font-size: 50px;
+}
+
+
+.img{
+
+    display: flex;
+}
+
+
+.img{
+
+    height: 500px;
+    width: 500px;
+}
+
+
+
+.buttons{
+
+
+    align-items: center;
+
+    display: flex;
+
+    margin-left: 100px;
+
+    gap: 50px;
+
+
+
+}
+
+.b {
+    background-color: #FFB4C2;
+    height: 70px;
+    width: 200px;
+    border: none;
+    cursor: pointer; /* Optional: adds a pointer cursor on hover */
+    transition: background-color 0.3s; /* Optional: smooth transition effect */
+}
+
+.b:hover {
+    background-color: rgb(255, 16, 136);
+}
+
+
+
+.info{
+
+    width: 70%;
+    margin: 0 auto; 
+    background-color: #FFB4C2;
+    color: #000;
+    margin-bottom: 30px;
+    background: linear-gradient(rgba(198, 16, 50, 0.3), rgba(255, 180, 194, 0.3)), url("C:\xampp\htdocs\ss\Onyx Nouveau Moonstone Porcelain Tile _ Mandarin Stone.jpg");
+
+    font-size: 25PX;
+    align-items: center;
+    margin-top: 30PX;
+    gap: 50px;
+    padding: 30px;
+
+} 
+
+
+.content {
+    display: flex;
+
+    
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(rgba(250, 207, 215, 0.3), rgba(255, 180, 194, 0.3)), url("81a6ebe1328e3217a57f4d690d0af2a8.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 40px 20px;
+    height: 600px;
+
+}
+
+
+
+.info:hover {
+    box-shadow: 0 4px 8px rgba(123, 98, 112, 0.8); /* Added full box-shadow property */
+}
+
+
+.fe{
+
+    background: linear-gradient(rgba(198, 16, 50, 0.3), rgba(255, 180, 194, 0.3)), url("C:\xampp\htdocs\ss\Onyx Nouveau Moonstone Porcelain Tile _ Mandarin Stone.jpg");
+
+    padding-top: 50px;
+
+padding-bottom: 40px;
+
+
+}
+
+
+.i{
+margin-top: 40px;
+
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 50px;
+
+}
+
+.foo {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center; /* Ensures text inside is centered */
+    padding-top: 30px;
+}
+.foo a{
+
+    font-size: 50px;
+}

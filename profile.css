@@ -1,0 +1,270 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 30px;
+    background-color: #ffffff;
+    background-color: #b6e4e8;
+
+}
+
+.profile-container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 30px;
+    background-color:#009FBD;
+  
+    text-align: center;
+
+}
+
+.profile-container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.profile-container p {
+    font-size: 18px;
+    margin: 10px 0;
+    color: white;
+}
+
+.profile-container strong {
+    color: #ffffff;
+}
+
+
+
+nav {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+  /* background-color: #FDCEDF; */
+    background-color: #ade1e6;
+    background-color: #ffffff;
+
+}
+
+nav a {
+    text-decoration: none;
+    color: #1679AB;
+}
+
+
+.nav-links {
+    flex-grow: 1;
+}
+
+.nav-links ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav-links ul li {
+    margin: 0 10px;
+    display: inline;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+
+
+nav ul li{
+
+    display: inline;
+}
+
+
+nav ul li a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+}
+
+
+
+
+.nav-links ul li a {
+    padding: 10px 20px;
+    display: block;
+    transition: background-color 0.3s;
+}
+
+.nav-links ul li a:hover {
+    background-color:#009FBD;
+    text-decoration: underline;
+    border-radius: 25px;
+}
+
+.search-input{
+    height: 30px;
+    border: none;
+    background-color: #ebe4e4f8;
+    border-radius: 25px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+input::placeholder{
+    font-size: 15px;
+    padding-left: 20px;
+}
+
+.search-button{
+    height: 30px;
+    width: 70px;
+    border-radius: 50px;
+    border: none;
+    background-color: #009FBD;
+    margin-top: 5px;   
+}
+.search-button:hover{
+    box-shadow: 2px 2px 2px black;
+}
+
+.nav-links ul li{
+    font-size: 18px;
+}
+
+
+.nav-links ul li a:hover {
+    background-color:#009FBD;
+    text-decoration: underline;
+    border-radius: 25px;
+}
+
+.search-input{
+    height: 30px;
+    border: none;
+    background-color: #ebe4e4f8;
+    border-radius: 25px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+input::placeholder{
+    font-size: 15px;
+    padding-left: 20px;
+}
+
+.search-button{
+    height: 30px;
+    width: 70px;
+    border-radius: 50px;
+    border: none;
+    background-color: #009FBD;
+    margin-top: 5px;   
+}
+.search-button:hover{
+    box-shadow: 2px 2px 2px black;
+}
+
+.nav-links ul li{
+    font-size: 18px;
+}
+
+
+
+.chat{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+
+.chatb{
+
+    background-color: #f97777;
+    padding: 20px;
+      background-color: #FDCEDF;
+      width: 300px;
+      border: 1px solid #afb0b1; /* Blue border */
+      color: rgb(255, 255, 255);
+      font-size: 18px;
+      background-color:#134B70;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+
+    
+}
+
+.chatb:hover{
+
+    background-color:#06262d;
+
+}
+
+
+
+  .profile-container1 {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #c0f2f8;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+/* Container styling */
+.profile-container1 {
+    text-align: center; /* Center align text */
+  }
+  
+  /* Heading styling */
+  .profile-container1 h1 {
+    margin-bottom: 20px; /* Space below heading */
+  }
+  
+  /* Profile box styling */
+  .profile-box {
+    padding: 10px 20px; /* Add padding */
+    margin: 10px; /* Space between boxes */
+    border-radius: 5px; /* Rounded corners */
+    background-color: #ffffff; /* Light background color */
+  }
+  
+  /* Link styling */
+  .profile-box a {
+    text-decoration: none; /* Remove underline from links */
+    color: #000000; /* Link color */
+    font-size: 18px; /* Font size */
+  }
+  
+  .profile-box:hover {
+    background-color:#009FBD;
+  }
+
+
+
+  .profile-container2 {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: 2px solid #720631; /* Border color */
+}
+
+.lobster-regular {
+    font-family: "Lobster", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.profile-container h1 {
+    font-family: 'Lobster', cursive;
+    font-size: 30px;
+    color: #333030;
+}

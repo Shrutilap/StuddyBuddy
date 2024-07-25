@@ -1,0 +1,125 @@
+body {
+    overflow-x: hidden;
+    font-family: Arial, sans-serif; /* Added font-family */
+    background-color: white;
+    background-color: #D2649A;
+    background-color: #BC5A94;
+
+
+}
+
+.main-content {
+    width: 50%;
+    height: auto; /* Adjusted height */
+    margin: 10px auto;
+    background-color: #fff;
+    border: 2px solid #e6e6e6;
+    padding: 40px 50px;
+    border-radius: 8px; /* Added border-radius */
+    background-color: #D2649A;
+    background-color: white;
+
+}
+
+.header {
+    border: 0;
+    margin-bottom: 15px; /* Adjusted margin */
+}
+
+.header h3 {
+    text-align: center;
+    font-size: 24px; /* Adjusted font size */
+    margin: 0;
+}
+
+.well {
+    background-color: #FFB4C2;
+    padding: 10px; /* Added padding */
+    border-radius: 8px; /* Added border-radius */
+}
+
+.well h1 {
+    color: white;
+    margin: 0;
+}
+
+.input-group {
+    margin-bottom: 15px; /* Adjusted margin */
+}
+
+.input-group input, .input-group select {
+    width: 100%;
+    padding: 10px; /* Added padding */
+    border-radius: 4px; /* Added border-radius */
+    border: 1px solid #ccc; /* Added border */
+}
+
+.input-group-addon {
+    padding: 10px;
+    background-color: #e6e6e6;
+    border: 1px solid #ccc;
+    border-radius: 4px 0 0 4px; /* Added border-radius */
+}
+
+.input-group-addon i {
+    font-size: 16px; /* Adjusted font size */
+}
+
+#signup {
+    width: 60%;
+    border-radius: 30px;
+    padding: 10px 20px; /* Added padding */
+    background-color: #FFB4C2; /* Changed background color */
+    color: white;
+    border: none;
+    cursor: pointer;
+    background-color: #BC5A94;
+
+}
+
+#signup:hover {
+    background-color: #d44797; /* Changed hover background color */
+}
+
+a {
+    text-decoration: none;
+    color: #FFB4C2;
+    color: #BC5A94;
+
+
+
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+/* Style for the input field */
+.search-input {
+    padding: 10px 15px;
+    font-size: 18px;
+    border: 2px solid #b6265f; /* Border color */
+    border-radius: 5px; /* Rounded corners */
+    width: calc(100% - 120px); /* Adjust width to fit alongside button */
+    margin-right: 10px; /* Space between input and button */
+    box-sizing: border-box; /* Include padding and border in element's total width and height */
+  }
+  
+  /* Style for the button */
+  .search-button {
+    padding: 10px 20px;
+    font-size: 18px;
+    border: 1px solid #dee4ea; /* Border color */
+    border-radius: 5px; /* Rounded corners */
+    background-color: #ec98c2; /* Button background color */
+    color: #fff; /* Button text color */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s, border-color 0.3s; /* Smooth transition */
+  }
+  
+  /* Button hover effect */
+  .search-button:hover {
+    background-color: #b6265f; /* Darker blue background on hover */
+  }
+  
