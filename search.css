@@ -1,0 +1,27 @@
+/* Reset some default styles */
+body, ul {
+    margin: 0;
+    padding: 0;
+
+}
+
+
+
+.results-container {
+    padding: 20px;
+}
+
+.results-container ul {
+    list-style: none;
+    padding: 0;
+}
+
+.results-container ul li {
+    margin-bottom: 15px;
+}
+
+.results-container ul li p {
+    margin: 0;
+    padding: 5px 0;
+}
+

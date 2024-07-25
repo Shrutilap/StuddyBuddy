@@ -1,0 +1,281 @@
+/* General body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 30px;
+    background-color: #9de0e8;
+
+}
+
+.lobster-regular {
+    font-family: "Lobster", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+
+/*navbar css*/
+nav {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+  /* background-color: #FDCEDF; */
+    background-color: #ade1e6;
+    background-color: #ffffff;
+
+}
+
+nav a {
+    text-decoration: none;
+    color: #1679AB;
+}
+
+
+.nav-links {
+    flex-grow: 1;
+}
+
+.nav-links ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav-links ul li {
+    margin: 0 10px;
+    display: inline;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+
+
+nav ul li{
+
+    display: inline;
+}
+
+
+nav ul li a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+}
+
+
+
+
+.nav-links ul li a {
+    padding: 10px 20px;
+    display: block;
+    transition: background-color 0.3s;
+}
+
+.nav-links ul li a:hover {
+    background-color:#009FBD;
+    text-decoration: underline;
+    border-radius: 25px;
+}
+
+.search-input{
+    height: 30px;
+    border: none;
+    background-color: #ebe4e4f8;
+    border-radius: 25px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+input::placeholder{
+    font-size: 15px;
+    padding-left: 20px;
+}
+
+.search-button{
+    height: 30px;
+    width: 70px;
+    border-radius: 50px;
+    border: none;
+    background-color: #009FBD;
+    margin-top: 5px;   
+}
+.search-button:hover{
+    box-shadow: 2px 2px 2px black;
+}
+
+.nav-links ul li{
+    font-size: 18px;
+}
+
+
+.nav-links ul li a:hover {
+    background-color:#009FBD;
+    text-decoration: underline;
+    border-radius: 25px;
+}
+
+.search-input{
+    height: 30px;
+    border: none;
+    background-color: #ebe4e4f8;
+    border-radius: 25px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+input::placeholder{
+    font-size: 15px;
+    padding-left: 20px;
+}
+
+.search-button{
+    height: 30px;
+    width: 70px;
+    border-radius: 50px;
+    border: none;
+    background-color: #009FBD;
+    margin-top: 5px;   
+}
+.search-button:hover{
+    box-shadow: 2px 2px 2px black;
+}
+
+.nav-links ul li{
+    font-size: 18px;
+}
+
+
+
+
+/* Store container styles */
+.store-container {
+    max-width: 1200px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: 2px solid #720631;
+    width: 60%;
+}
+
+.store-container h1 {
+    text-align: center;
+    
+    
+    font-family: 'Lobster';
+    font-size: 60px;
+
+}
+
+/* Item submission form styles */
+.item-form {
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.item-form input, .item-form textarea, .item-form button {
+    padding: 10px;
+    border: 1px solid #d0d0d0;
+    border-radius: 5px;
+}
+
+.item-form button {
+    background-color: #009FBD;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.item-form button:hover {
+    background-color: #095969;
+}
+
+/* Grid layout for items */
+.items-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    width: 70%;
+    margin: 0 auto;
+}
+
+
+
+
+/* Item box styles */
+.item-box {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.item-box img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+
+.item-box:hover {
+    background-color: #bee6ea; /* Change the background color on hover */
+    color: rgb(0, 0, 0); /* Optional: Change text color for better contrast */
+    transition: background-color 0.3s; /* Smooth transition for background color change */
+}
+
+
+.item-info {
+    margin-top: 10px;
+}
+
+.item-info p {
+    margin: 5px 0;
+}
+
+.item-box a {
+    display: block;
+    margin-top: 10px;
+    color: #0f6f82;
+
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.item-box a:hover {
+    color: #000;
+}
+
+
+
+.foo {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center; /* Ensures text inside is centered */
+    padding-top: 30px;
+    background-color: #ec98c2;
+    margin-top: 30px;
+}
+.foo a{
+
+    font-size: 50px;
+}
+
+
+.i{
+
+    padding: 30px;
+}

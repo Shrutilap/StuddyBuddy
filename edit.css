@@ -1,0 +1,39 @@
+/* Container styling */
+.profile-container2 {
+    max-width: 600px; /* Adjust as needed */
+    margin: 0 auto; /* Center the form */
+    padding: 20px;
+    border: 1px solid rgb(224, 87, 156);
+  }
+  
+  /* Form element styling */
+  .profile-container2 label,
+  .profile-container2 input,
+  .profile-container2 textarea,
+  .profile-container2 button {
+    display: block; /* Stack elements vertically */
+    width: 100%; /* Full width for inputs and textarea */
+    margin-bottom: 15px; /* Space between elements */
+  }
+  
+  /* Button styling */
+  .profile-container2 button {
+    width: auto; /* Button width based on content */
+    padding: 10px;
+    background-color: #ef82a8; /* Button background color */
+    color: #fff; /* Button text color */
+    border: none;
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+  }
+  
+  .profile-container2 button:hover {
+    background-color: #ea62a2; /* Darker background on hover */
+  }
+  
+  .profile-container2 h1{
+
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
